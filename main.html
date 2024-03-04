@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="left-section"></div>
+
+        <div class="mid-section">
+          <p class="fashion-text">ZERONA BEAUTY</p>
+        </div>
+
+        <div class="right-section">
+          <a href="">
+            <img src="./resources/bag-shopping.svg" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="body">
+        <div class="all-products">
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6213-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1200.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6215-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1200.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6220-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1200.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6221-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1200.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6221-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1200.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6224-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1200.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6226-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1200.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6229-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1200.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6232-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6233-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6235-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6236-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6239-removebg-preview (1).png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6237-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6238-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6240-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6241-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>Dress <br /></h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="photo_gallary">
+              <div class="slide fade">
+                <img
+                  src="./items/IMG_6242-removebg-preview.png"
+                  alt="Slide 1"
+                />
+              </div>
+
+              <!-- Add more slides as needed -->
+            </div>
+
+            <div class="product-info">
+              <h1>
+                Dress <br />
+                Dress
+              </h1>
+              <p class="designer">By <span>New Look</span></p>
+              <p class="price">&#36; <span>1500.00 </span></p>
+
+              <div class="size">
+                <p>CHOOSE YOUR SIZE</p>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+              </div>
+
+              <div class="quantity">
+                <p>QUANTITY</p>
+                <div class="stepper">
+                  <button class="leftbtn" onclick="decrement()">-</button>
+                  <input type="text" id="quantity" value="1" />
+                  <button class="rightbtn" onclick="increment()">+</button>
+                </div>
+              </div>
+
+              <div class="cart">
+                <button class="BAG" onclick="addToCart(this,event)">
+                  ADD TO BAG
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

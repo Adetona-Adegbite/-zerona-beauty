@@ -114,6 +114,9 @@
 }
 
 @media screen and (max-width: 950px) {
+  * {
+    overflow-x: hidden;
+  }
   .product-item {
     display: flex;
     flex-direction: column;
